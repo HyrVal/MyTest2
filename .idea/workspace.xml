@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71f96b1f-908b-4fd7-8924-76ba07af9f8f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Packages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RozetkaHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Packages/RozetkaHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RosetteSiteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/RosetteSiteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TeatInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/TeatInit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -48,27 +49,77 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable": "ALL",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "build.tools"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.RosetteSiteTest.categoriesNotebookTest">
-    <configuration name="RosetteSiteTest.categoriesNotebookTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.TestInterface">
+    <configuration name="TestInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tests.TestInterface" />
       <module name="TestRozetka" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RosetteSiteTest" />
-      <option name="METHOD_NAME" value="categoriesNotebookTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestInterfacesSimpleFigures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tests.TestInterfacesSimpleFigures" />
+      <module name="TestRozetka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/HyreVal/IdeaProjects/TestRozetka/testSuit.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestRozetka" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testSuit.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RosetteSiteTest.getCategoriesNotebookTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RosetteSiteTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestRozetka" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RosetteSiteTest" />
-      <option name="METHOD_NAME" value="getCategoriesNotebookTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.RosetteSiteTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RosetteSiteTest.categoiesLaptops" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestRozetka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.RosetteSiteTest" />
+      <option name="METHOD_NAME" value="categoiesLaptops" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -78,8 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.RosetteSiteTest.categoriesNotebookTest" />
-        <item itemvalue="TestNG.RosetteSiteTest.getCategoriesNotebookTest" />
+        <item itemvalue="Application.TestInterface" />
+        <item itemvalue="Application.TestInterfacesSimpleFigures" />
+        <item itemvalue="TestNG.C:/Users/HyreVal/IdeaProjects/TestRozetka/testSuit.xml" />
+        <item itemvalue="TestNG.RosetteSiteTest" />
+        <item itemvalue="TestNG.RosetteSiteTest.categoiesLaptops" />
       </list>
     </recent_temporary>
   </component>
