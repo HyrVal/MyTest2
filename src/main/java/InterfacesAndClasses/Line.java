@@ -15,5 +15,6 @@ public Line (String A, String B){
     @Override
     public void showInfoGeometricFigures() {
         System.out.println("Points a line segment " + this.A +"-"+ this.B);
+        System.out.println("(this is interface 2)");
     }
 }

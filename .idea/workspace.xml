@@ -6,10 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="71f96b1f-908b-4fd7-8924-76ba07af9f8f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Packages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RozetkaHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Packages/RozetkaHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RosetteSiteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/RosetteSiteTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TeatInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/TeatInit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Interfaces/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Interfaces/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Interfaces/InfoInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Interfaces/InfoObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Interfaces/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Interfaces/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InterfacesAndClasses/Line.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InterfacesAndClasses/Line.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InterfacesAndClasses/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InterfacesAndClasses/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/TestInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/TestInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/TestInterfacesSimpleFigures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/TestSimpleFigures.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testSuit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testSuit.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -29,6 +34,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/pom.xml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/testSuit.xml" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -44,44 +50,18 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable": "ALL",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "build.tools"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable&quot;: &quot;ALL&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.TestInterface">
-    <configuration name="TestInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tests.TestInterface" />
-      <module name="TestRozetka" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestInterfacesSimpleFigures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tests.TestInterfacesSimpleFigures" />
-      <module name="TestRozetka" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}</component>
+  <component name="RunManager" selected="TestNG.C:/Users/HyreVal/IdeaProjects/TestRozetka/testSuit.xml">
     <configuration name="C:/Users/HyreVal/IdeaProjects/TestRozetka/testSuit.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestRozetka" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testSuit.xml" />
@@ -92,7 +72,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RosetteSiteTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestInterface.runTestInterface" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestRozetka" />
       <extension name="coverage">
         <pattern>
@@ -101,7 +81,43 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.RosetteSiteTest" />
+      <option name="MAIN_CLASS_NAME" value="Tests.TestInterface" />
+      <option name="METHOD_NAME" value="runTestInterface" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSimpleFigures.runTestSimpleFigure" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestRozetka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.TestSimpleFigures" />
+      <option name="METHOD_NAME" value="runTestSimpleFigure" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSimpleGeometricFigure" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestRozetka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.TestSimpleGeometricFigure" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -109,7 +125,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RosetteSiteTest.categoiesLaptops" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSimpleGeometricFigure.getTestSimpleGeometricFigure" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestRozetka" />
       <extension name="coverage">
         <pattern>
@@ -118,8 +134,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.RosetteSiteTest" />
-      <option name="METHOD_NAME" value="categoiesLaptops" />
+      <option name="MAIN_CLASS_NAME" value="Tests.TestSimpleGeometricFigure" />
+      <option name="METHOD_NAME" value="getTestSimpleGeometricFigure" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -129,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestInterface" />
-        <item itemvalue="Application.TestInterfacesSimpleFigures" />
         <item itemvalue="TestNG.C:/Users/HyreVal/IdeaProjects/TestRozetka/testSuit.xml" />
-        <item itemvalue="TestNG.RosetteSiteTest" />
-        <item itemvalue="TestNG.RosetteSiteTest.categoiesLaptops" />
+        <item itemvalue="TestNG.TestSimpleGeometricFigure" />
+        <item itemvalue="TestNG.TestSimpleGeometricFigure.getTestSimpleGeometricFigure" />
+        <item itemvalue="TestNG.TestSimpleFigures.runTestSimpleFigure" />
+        <item itemvalue="TestNG.TestInterface.runTestInterface" />
       </list>
     </recent_temporary>
   </component>

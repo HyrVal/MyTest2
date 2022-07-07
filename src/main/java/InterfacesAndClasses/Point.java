@@ -13,9 +13,10 @@ public class Point implements InfoGeometricFigures{
     public void getCoordinates(){
         System.out.println("Point coordinates (X-Y): ");
     }
-//    public void
+
     public void showInfoGeometricFigures(){
         System.out.println("Point coordinates A(" + this.coordinateX + "," + this.coordinateY+")");
+        System.out.println("(this is interface 2)");
     }
 
 }
