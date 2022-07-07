@@ -1,5 +1,5 @@
 package Interfaces;
 
-public interface InfoInterface {
+public interface InfoObject {
     public void showInfo();
 }

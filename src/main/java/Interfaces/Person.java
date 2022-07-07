@@ -1,6 +1,6 @@
 package Interfaces;
 
-public class Person implements InfoInterface{
+public class Person implements InfoObject {
     private String name;
 
     public Person(String name){
@@ -10,9 +10,9 @@ public class Person implements InfoInterface{
         System.out.println("Hello");
     }
 
-
     @Override
     public void showInfo() {
-        System.out.println("Name is" + this.name);
+        System.out.println("Name is " + this.name);
+        System.out.println("(this is interface 3)");
     }
 }

@@ -1,6 +1,6 @@
 package Interfaces;
 
-public class Animal implements InfoInterface{
+public class Animal implements InfoObject {
     public int id;
 
     public Animal(int id){
@@ -14,7 +14,7 @@ public class Animal implements InfoInterface{
 
     @Override
     public void showInfo() {
-        System.out.println("It id =" + this.id);
-
+        System.out.println("Animal id = " + this.id);
+        System.out.println("(this is interface 3)");
     }
 }
