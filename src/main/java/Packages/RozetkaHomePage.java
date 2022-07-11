@@ -35,4 +35,11 @@ public class RozetkaHomePage extends BasePage {
 
     }
 
+    public WebElement getCatalogEquipmentAndRepair() {
+    return driver.findElements(By.cssSelector("[class='menu-categories__link']")).get(6) ;
+    }
+
+    public WebElement getcatalogCottageAndGarden() {
+    return driver.findElements(By.cssSelector("[class='menu-categories__link']")).get(7);
+    }
 }

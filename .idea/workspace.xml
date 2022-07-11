@@ -6,15 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="71f96b1f-908b-4fd7-8924-76ba07af9f8f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Interfaces/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Interfaces/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Interfaces/InfoInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Interfaces/InfoObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Interfaces/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Interfaces/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InterfacesAndClasses/Line.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InterfacesAndClasses/Line.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InterfacesAndClasses/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InterfacesAndClasses/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/TestInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/TestInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/TestInterfacesSimpleFigures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/TestSimpleFigures.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testSuit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testSuit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Packages/RozetkaHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Packages/RozetkaHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/RosetteSiteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/RosetteSiteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/TeatInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/TeatInit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,18 +55,8 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.C:/Users/HyreVal/IdeaProjects/TestRozetka/testSuit.xml">
-    <configuration name="C:/Users/HyreVal/IdeaProjects/TestRozetka/testSuit.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestRozetka" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testSuit.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestInterface.runTestInterface" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.RosetteSiteTest.catalogCottageAndGarden">
+    <configuration name="RosetteSiteTestWithCSS.catalogEquipmentAndRepair" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestRozetka" />
       <extension name="coverage">
         <pattern>
@@ -81,8 +65,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.TestInterface" />
-      <option name="METHOD_NAME" value="runTestInterface" />
+      <option name="MAIN_CLASS_NAME" value="Tests.RosetteSiteTestWithCSS" />
+      <option name="METHOD_NAME" value="catalogEquipmentAndRepair" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -90,7 +74,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSimpleFigures.runTestSimpleFigure" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RosetteSiteTest.catalogCottageAndGarden" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestRozetka" />
       <extension name="coverage">
         <pattern>
@@ -99,8 +83,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.TestSimpleFigures" />
-      <option name="METHOD_NAME" value="runTestSimpleFigure" />
+      <option name="MAIN_CLASS_NAME" value="Tests.RosetteSiteTest" />
+      <option name="METHOD_NAME" value="catalogCottageAndGarden" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -108,7 +92,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSimpleGeometricFigure" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RosetteSiteTest.catalogEquipmentAndRepair" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestRozetka" />
       <extension name="coverage">
         <pattern>
@@ -117,15 +101,16 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.TestSimpleGeometricFigure" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="Tests.RosetteSiteTest" />
+      <option name="METHOD_NAME" value="catalogEquipmentAndRepair" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSimpleGeometricFigure.getTestSimpleGeometricFigure" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RosetteSiteTest.categoiesLaptops" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestRozetka" />
       <extension name="coverage">
         <pattern>
@@ -134,8 +119,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.TestSimpleGeometricFigure" />
-      <option name="METHOD_NAME" value="getTestSimpleGeometricFigure" />
+      <option name="MAIN_CLASS_NAME" value="Tests.RosetteSiteTest" />
+      <option name="METHOD_NAME" value="categoiesLaptops" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RosetteSiteTest.categoriesHomeTechnique" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestRozetka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.RosetteSiteTest" />
+      <option name="METHOD_NAME" value="categoriesHomeTechnique" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -145,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/HyreVal/IdeaProjects/TestRozetka/testSuit.xml" />
-        <item itemvalue="TestNG.TestSimpleGeometricFigure" />
-        <item itemvalue="TestNG.TestSimpleGeometricFigure.getTestSimpleGeometricFigure" />
-        <item itemvalue="TestNG.TestSimpleFigures.runTestSimpleFigure" />
-        <item itemvalue="TestNG.TestInterface.runTestInterface" />
+        <item itemvalue="TestNG.RosetteSiteTest.catalogCottageAndGarden" />
+        <item itemvalue="TestNG.RosetteSiteTest.catalogEquipmentAndRepair" />
+        <item itemvalue="TestNG.RosetteSiteTestWithCSS.catalogEquipmentAndRepair" />
+        <item itemvalue="TestNG.RosetteSiteTest.categoriesHomeTechnique" />
+        <item itemvalue="TestNG.RosetteSiteTest.categoiesLaptops" />
       </list>
     </recent_temporary>
   </component>
@@ -174,5 +177,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Packages/RozetkaHomePage.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

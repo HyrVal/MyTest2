@@ -10,55 +10,56 @@ public class RosetteSiteTest extends TeatInit{
     RozetkaHomePage rozetkaHomePage;
    @BeforeMethod
     public void beforeStart (){
-      rozetkaHomePage=new RozetkaHomePage(driver);
-      rozetkaHomePage.getSite();
+    rozetkaHomePage=new RozetkaHomePage(driver);
+    rozetkaHomePage.getSite();
+    sleep(2);
     }
 
     @Test
     public void categoiesLaptops () {
-//      " post up to BeforeMethod "
-//        RozetkaHomePage rozetkaHomePage = new RozetkaHomePage(driver);
-//        rozetkaHomePage.getSite();
-        rozetkaHomePage.getCategoriesLaptops().click();
-        Assert.assertTrue(rozetkaHomePage.getCategoriesLaptops().isDisplayed());
-//        sleep(2);
-// Assert.assertTrue(driver.getCurrentUrl().contains("https://rozetka.com.ua/ua/computers-notebooks/c80253/"));
-    }
+    rozetkaHomePage.getCategoriesLaptops().click();
+   sleep(2);
+//        Assert.assertTrue(rozetkaHomePage.getCategoriesLaptops().isDisplayed());
+    Assert.assertTrue(driver.getCurrentUrl().contains("computers-notebooks/c80253/"));
+   }
 
      @Test
      public void categoriesNotebook (){
-//         RozetkaHomePage rozetkaHomePage = new RozetkaHomePage(driver);
-//         rozetkaHomePage.getSite();
-         sleep(2);
          rozetkaHomePage.getCategoriesNotebook().click();
          Assert.assertTrue(rozetkaHomePage.getCategoriesNotebook().isDisplayed());
 //         Assert.assertTrue(driver.getCurrentUrl().contains("https://rozetka.com.ua/telefony-tv-i-ehlektronika/c4627949/"));
     }
+
     @Test
     public void categoriesProductsForGamers(){
-//        RozetkaHomePage rozetkaHomePage = new RozetkaHomePage(driver);
-//        rozetkaHomePage.getSite();
-        sleep(2);
         rozetkaHomePage.getcategoriesProductsForGamers();
         Assert.assertTrue(rozetkaHomePage.getcategoriesProductsForGamers().isDisplayed());
-
     }
+
     @Test
     public void categoriesHomeTechnique(){
-//        RozetkaHomePage rozetkaHomePage = new RozetkaHomePage(driver);
-//        rozetkaHomePage.getSite();
+        rozetkaHomePage.getCategoriesHomeTechnique().click();
         sleep(2);
-        rozetkaHomePage.getCategoriesHomeTechnique();
         Assert.assertTrue(rozetkaHomePage.getCategoriesHomeTechnique().isDisplayed());
-
     }
+
     @Test
     public void categoriesToolsAndAuto(){
-//        RozetkaHomePage rozetkaHomePage = new RozetkaHomePage(driver);
-//        rozetkaHomePage.getSite();
-        sleep(2);
         rozetkaHomePage.getCategoriesToolsAndAuto();
+        sleep(2);
         Assert.assertTrue(rozetkaHomePage.getCategoriesToolsAndAuto().isDisplayed());
-
     }
+    @Test
+    public void catalogEquipmentAndRepair(){
+        rozetkaHomePage.getCatalogEquipmentAndRepair().click();
+        sleep(2);
+//   Assert.assertTrue(rozetkaHomePage.getCatalogEquipmentAndRepair().isDisplayed());
+  Assert.assertTrue(driver.getCurrentUrl().contains("/santekhnika-i-remont/c4628418/"));
+   }
+   @Test
+   public void catalogCottageAndGarden(){
+       rozetkaHomePage.getcatalogCottageAndGarden().click();
+       sleep(2);
+       Assert.assertTrue(driver.getCurrentUrl().contains("/dacha-sad-ogorod/c2394297/"));
+     }
 }
