@@ -25,8 +25,8 @@ import org.testng.annotations.BeforeMethod;
             }
         }
 
-        @AfterMethod
-        public void closeSite() {
-            driver.quit();
-        }
+//        @AfterMethod
+//        public void closeSite() {
+//            driver.quit();
+//        }
     }
