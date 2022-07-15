@@ -15,6 +15,8 @@ public class TestSimpleGeometricFigure {
        circle1.calculateGeometricFigures();
 //       circle1.getLongCircle();
        square1.calculateGeometricFigures();
+       System.out.println("=====================================");
+       System.out.println("end getTestSimpleGeometricFigure suit");
     }
 
 }

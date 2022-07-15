@@ -14,7 +14,8 @@ public class TestInterface {
 
         infoInterface1.showInfo();
         infoInterface2.showInfo();
-
+    System.out.println("======================");
+    System.out.println("end TestInterface suit");
     }
 
 }
