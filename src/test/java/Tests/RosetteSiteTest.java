@@ -27,20 +27,21 @@ public class RosetteSiteTest extends TeatInit{
      public void categoriesNotebook (){
          rozetkaHomePage.getCategoriesNotebook().click();
          Assert.assertTrue(rozetkaHomePage.getCategoriesNotebook().isDisplayed());
-//         Assert.assertTrue(driver.getCurrentUrl().contains("https://rozetka.com.ua/telefony-tv-i-ehlektronika/c4627949/"));
+         sleep(2);
+        Assert.assertTrue(driver.getCurrentUrl().contains("https://rozetka.com.ua/telefony-tv-i-ehlektronika/c4627949/"));
     }
 
     @Test
     public void categoriesProductsForGamers(){
-        rozetkaHomePage.getcategoriesProductsForGamers();
-        Assert.assertTrue(rozetkaHomePage.getcategoriesProductsForGamers().isDisplayed());
+        rozetkaHomePage.getCategoriesProductsForGamers();
+        Assert.assertTrue(rozetkaHomePage.getCategoriesProductsForGamers().isDisplayed());
     }
 
     @Test
     public void categoriesHomeTechnique(){
-        rozetkaHomePage.getCategoriesHomeTechnique().click();
+        rozetkaHomePage.getCategoriesHomeTechnique().get(4).click();
         sleep(2);
-        Assert.assertTrue(rozetkaHomePage.getCategoriesHomeTechnique().isDisplayed());
+        Assert.assertTrue(rozetkaHomePage.getHomeTechnique().isDisplayed());
     }
 
     @Test
@@ -58,8 +59,44 @@ public class RosetteSiteTest extends TeatInit{
    }
    @Test
    public void catalogCottageAndGarden(){
-       rozetkaHomePage.getcatalogCottageAndGarden().click();
+       rozetkaHomePage.getCatalogCottageAndGarden().click();
        sleep(2);
        Assert.assertTrue(driver.getCurrentUrl().contains("/dacha-sad-ogorod/c2394297/"));
      }
+     @Test
+    public void catalogSportsAndHobbies (){
+       rozetkaHomePage.getSportsAndHobbies().click();
+       sleep(2);
+       Assert.assertTrue(driver.getCurrentUrl().contains("https://rozetka.com.ua/sport-i-uvlecheniya/c4627893/"));
+   }
+   @Test
+    public void catalogClothesAndShoes(){
+       rozetkaHomePage.getCatalogClothesAndShoes().click();
+       sleep(2);
+       Assert.assertTrue(driver.getCurrentUrl().contains("/shoes_clothes/c1162030/"));
+    }
+    @Test
+    public void beautyAndHealth (){
+        rozetkaHomePage.getBeautyAndHealth().click();
+        sleep(2);
+    Assert.assertTrue(driver.getCurrentUrl().contains("ua/krasota-i-zdorovje/c4629305/"));
+   }
+    @Test
+    public void childrensProducts (){
+        rozetkaHomePage.getChildrensProducts().click();
+        sleep(2);
+        Assert.assertTrue(driver.getCurrentUrl().contains("/kids/c88468/"));
+    }
+    @Test
+    public void zooProducts (){
+        rozetkaHomePage.getZooProducts().click();
+        sleep(2);
+        Assert.assertTrue(driver.getCurrentUrl().contains("/zootovary/c3520929/"));
+    }
+    @Test
+    public void lowCostGoodsProducts (){
+        rozetkaHomePage.getLowCostGoodsProducts().click();
+        sleep(2);
+        Assert.assertTrue(driver.getCurrentUrl().contains("rasprodaja/c83850/"));
+    }
 }

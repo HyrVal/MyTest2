@@ -1,12 +1,16 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Test">
-    <test name = "TestInterfaces">
+    <test name = "TestUnit"> = "methods" thread-count = "3">
         <classes>
-            <class name = "Tests.TestSimpleGeometricFigure" />
-            <class name = "Tests.TestSimpleFigures" />
-            <class name = "Tests.TestInterface" />
-<!--            <class name = "Tests.RosetteSiteTest" />-->
+<!--            <class name = "Tests.TestSimpleGeometricFigure" />&ndash;&gt;-->
+<!--            <class name = "Tests.TestSimpleFigures" />-->
+<!--            <class name = "Tests.TestInterface" />-->
+        </classes>
+    </test>
+    <test name = "TestRozetka">
+        <classes>
+            <class name = "Tests.RosetteSiteTest" />&ndash;&gt;-->
         </classes>
     </test>
 </suite>

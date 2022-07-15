@@ -16,7 +16,8 @@ public class TestSimpleFigures {
 
         pointA.showInfoGeometricFigures();
         lineAB.showInfoGeometricFigures();
-
+    System.out.println("==========================");
+    System.out.println("end TestSimpleFigures suit");
    }
 }
 
