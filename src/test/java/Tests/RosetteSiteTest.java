@@ -28,7 +28,7 @@ public class RosetteSiteTest extends TeatInit{
          rozetkaHomePage.getCategoriesNotebook().click();
          Assert.assertTrue(rozetkaHomePage.getCategoriesNotebook().isDisplayed());
          sleep(2);
-        Assert.assertTrue(driver.getCurrentUrl().contains("https://rozetka.com.ua/telefony-tv-i-ehlektronika/c4627949/"));
+        Assert.assertTrue(driver.getCurrentUrl().contains("telefony-tv-i-ehlektronika/c4627949/"));
     }
 
     @Test
@@ -67,7 +67,7 @@ public class RosetteSiteTest extends TeatInit{
     public void catalogSportsAndHobbies (){
        rozetkaHomePage.getSportsAndHobbies().click();
        sleep(2);
-       Assert.assertTrue(driver.getCurrentUrl().contains("https://rozetka.com.ua/sport-i-uvlecheniya/c4627893/"));
+       Assert.assertTrue(driver.getCurrentUrl().contains("sport-i-uvlecheniya/c4627893/"));
    }
    @Test
     public void catalogClothesAndShoes(){
@@ -79,7 +79,7 @@ public class RosetteSiteTest extends TeatInit{
     public void beautyAndHealth (){
         rozetkaHomePage.getBeautyAndHealth().click();
         sleep(2);
-    Assert.assertTrue(driver.getCurrentUrl().contains("ua/krasota-i-zdorovje/c4629305/"));
+    Assert.assertTrue(driver.getCurrentUrl().contains("krasota-i-zdorovje/c4629305/"));
    }
     @Test
     public void childrensProducts (){
