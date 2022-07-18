@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="71f96b1f-908b-4fd7-8924-76ba07af9f8f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Packages/RozetkaHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Packages/RozetkaHomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Tests/RosetteSiteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/RosetteSiteTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/RosetteSiteTestWithCSS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/RosetteTestCart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/TeatInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/TeatInit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/TestInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/TestInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Tests/TestSimpleFigures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/TestSimpleFigures.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Tests/TestSimpleGeometricFigure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/TestSimpleGeometricFigure.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testSuit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testSuit.xml" afterDir="false" />
@@ -78,7 +74,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RosetteSiteTest.catalogClothesAndShoes" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSimpleFigures" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestRozetka" />
       <extension name="coverage">
         <pattern>
@@ -87,8 +83,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.RosetteSiteTest" />
-      <option name="METHOD_NAME" value="catalogClothesAndShoes" />
+      <option name="MAIN_CLASS_NAME" value="Tests.TestSimpleFigures" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSimpleFigures.runTestSimpleFigure" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestRozetka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.TestSimpleFigures" />
+      <option name="METHOD_NAME" value="runTestSimpleFigure" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -96,7 +109,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RosetteSiteTest.lowCostGoodsProducts" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSimpleGeometricFigure" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestRozetka" />
       <extension name="coverage">
         <pattern>
@@ -105,16 +118,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.RosetteSiteTest" />
-      <option name="METHOD_NAME" value="lowCostGoodsProducts" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="Tests.TestSimpleGeometricFigure" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RosetteSiteTest.zooProducts" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSimpleGeometricFigure.getTestSimpleGeometricFigure" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestRozetka" />
       <extension name="coverage">
         <pattern>
@@ -123,26 +135,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.RosetteSiteTest" />
-      <option name="METHOD_NAME" value="zooProducts" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RosetteTestCart.testCart" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestRozetka" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.RosetteTestCart" />
-      <option name="METHOD_NAME" value="testCart" />
+      <option name="MAIN_CLASS_NAME" value="Tests.TestSimpleGeometricFigure" />
+      <option name="METHOD_NAME" value="getTestSimpleGeometricFigure" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -153,10 +147,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/HyreVal/IdeaProjects/TestRozetka/testSuit.xml" />
-        <item itemvalue="TestNG.RosetteTestCart.testCart" />
-        <item itemvalue="TestNG.RosetteSiteTest.lowCostGoodsProducts" />
-        <item itemvalue="TestNG.RosetteSiteTest.zooProducts" />
-        <item itemvalue="TestNG.RosetteSiteTest.catalogClothesAndShoes" />
+        <item itemvalue="TestNG.TestSimpleGeometricFigure" />
+        <item itemvalue="TestNG.TestSimpleGeometricFigure.getTestSimpleGeometricFigure" />
+        <item itemvalue="TestNG.TestSimpleFigures" />
+        <item itemvalue="TestNG.TestSimpleFigures.runTestSimpleFigure" />
       </list>
     </recent_temporary>
   </component>
