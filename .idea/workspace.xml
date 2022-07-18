@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="71f96b1f-908b-4fd7-8924-76ba07af9f8f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/TestForJulia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/TestForJulia.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +61,7 @@
       <recent name="C:\Users\HyreVal\IdeaProjects\TestRozetka\src\test\java\ExceptionTasks" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/HyreVal/IdeaProjects/TestRozetka/testSuit.xml">
+  <component name="RunManager" selected="TestNG.TestForJulia.testForJulia">
     <configuration name="C:/Users/HyreVal/IdeaProjects/TestRozetka/testSuit.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestRozetka" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testSuit.xml" />
@@ -71,7 +72,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSimpleFigures" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RosetteSiteTest.catalogSportsAndHobbies" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestRozetka" />
       <extension name="coverage">
         <pattern>
@@ -80,15 +81,16 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.TestSimpleFigures" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="Tests.RosetteSiteTest" />
+      <option name="METHOD_NAME" value="catalogSportsAndHobbies" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSimpleFigures.runTestSimpleFigure" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestForJulia.testForJulia" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestRozetka" />
       <extension name="coverage">
         <pattern>
@@ -97,8 +99,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.TestSimpleFigures" />
-      <option name="METHOD_NAME" value="runTestSimpleFigure" />
+      <option name="MAIN_CLASS_NAME" value="Tests.TestForJulia" />
+      <option name="METHOD_NAME" value="testForJulia" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -143,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestForJulia.testForJulia" />
+        <item itemvalue="TestNG.RosetteSiteTest.catalogSportsAndHobbies" />
         <item itemvalue="TestNG.C:/Users/HyreVal/IdeaProjects/TestRozetka/testSuit.xml" />
         <item itemvalue="TestNG.TestSimpleGeometricFigure" />
         <item itemvalue="TestNG.TestSimpleGeometricFigure.getTestSimpleGeometricFigure" />
-        <item itemvalue="TestNG.TestSimpleFigures" />
-        <item itemvalue="TestNG.TestSimpleFigures.runTestSimpleFigure" />
       </list>
     </recent_temporary>
   </component>
